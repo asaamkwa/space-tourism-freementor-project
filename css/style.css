@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 7.5rem;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 100;
+}
+
+.background-img {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.navbar {
+    background-color: rgba(80, 72, 72, 0.521);
+    color: white;
+    margin: 0 0 2rem auto;
+    position: relative;
+    padding: 0 7.5rem 0 0;
+    text-align: right;
+    top: 2rem;
+    width: 45%;
+}
+
+.logo {
+    position: absolute;
+    top: 3rem;
+    left: 5%;
+}
+
+.line {
+    border: .20rem solid rgba(80, 72, 72, 0.521);
+    position: absolute;
+    width: 35%;
+    top: 4.5rem;
+    left: 12.5%;
+}
+
+.nav-element {
+    color: white;
+    display: inline-block;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 100;
+    font-size: 1.1rem;
+    margin: 0 2.5rem 0 0;
+}
+
+.nav-numbers {
+    color: white;
+    font-weight: 800;
+    margin: 0 0.5rem 0 0;
+}
+
+.nav-link {
+    color: #fff;
+    display: inline-block;
+    height: 100%;
+    padding: 2rem 0;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    border-bottom: 5px solid white;
+}
+
+.main-div {
+    color: white;
+    padding: 5% 0 0 10%;
+    position: absolute;
+}
+
+.content {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    line-height: 2;
+    width: 35%;
+}
+
+.button {
+    background-color: #fff;
+    border: 0 solid white;
+    border-radius: 100%;
+    color: black;
+    display: inline-block;
+    font-size: 2rem;
+    font-family: 'Cinzel', serif;
+    padding: 6rem 3rem;
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+}
